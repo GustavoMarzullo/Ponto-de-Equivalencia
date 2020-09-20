@@ -16,7 +16,7 @@ def diff2(dataframe,x,y):
             continue
     return pontos
 
-def pe(dataframe,n_pontos,plotar=False,filtro=False):
+def pe(dataframe,n_pontos,plotar=False):
     '''Retorna o ponto de equivalência da titulação (Vtit e pH). O dataframe deve conter uma coluna com 'pH' e outra com 'Vtit'.'''
     assert n_pontos==1 or n_pontos== 2 or n_pontos== 3,('Máximo de 3 pontos')
 
