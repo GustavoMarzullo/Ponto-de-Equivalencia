@@ -2,7 +2,7 @@
 import pandas as pd
 import matplotlib.pyplot as plt
 from sklearn.cluster import KMeans
-
+plt.rcParams['figure.figsize'] = (15, 7)
 
 def diff2(dataframe,x,y):
     '''Retorna a derivada d2y/dx2 de tal dataframe.\nx e y são as colunas do dataframe a serem derivadas.'''
